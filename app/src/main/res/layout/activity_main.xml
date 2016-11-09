@@ -30,7 +30,6 @@
         android:layout_marginTop="140dp" />
 
 
-
     <EditText
         android:id="@+id/cuerpo"
         android:hint="@string/cuerpo"

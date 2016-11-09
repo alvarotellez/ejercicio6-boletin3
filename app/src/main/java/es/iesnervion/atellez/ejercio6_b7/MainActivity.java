@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
                 String emailEnvio = destinatario.getText().toString();
                 String asuntoEmail = asunto.getText().toString();
                 String cuerpoEmail = cuerpo.getText().toString();
+                //String emailEnvio="atellez@gmail.com";
+
 
                 Intent emailIntent = new Intent(Intent.ACTION_SEND);
                 emailIntent.setData(Uri.parse("mailto:"));
